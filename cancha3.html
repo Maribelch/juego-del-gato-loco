@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GATO</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/glyphicons-halflings-regular.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+</head>
+<body class="cancha3"  onload="startGame();">
+
+<div class="container text-center">
+    <h2 class="titu3">ENPESEMOS A JUGAR</h2>
+    <div id="message">mensaje</div>
+    <div class="michito">
+        <table border="0" >
+            <tr>
+                <td id="s1" class="Cuadrado" onclick="nextMove(this)"> </td>
+                <td id="s2" class="Cuadrado" onclick="nextMove(this)"> </td>
+                <td id="s3" class="Cuadrado" onclick="nextMove(this)"> </td>
+            </tr>
+            <tr>
+                <td id="s4" class="Cuadrado" onclick="nextMove(this)"> </td>
+                <td id="s5" class="Cuadrado" onclick="nextMove(this)"> </td>
+                <td id="s6" class="Cuadrado" onclick="nextMove(this)"> </td>
+            </tr>
+            <tr>
+                <td id="s7" class="Cuadrado" onclick="nextMove(this)"> </td>
+                <td id="s8" class="Cuadrado" onclick="nextMove(this)"></td>
+                <td id="s9" class="Cuadrado" onclick="nextMove(this)"> </td>
+            </tr>
+        </table>
+    </div>
+    <button class="btn btn-default"  type="button" onclick="startGame();">Nuevo Juego</button>
+     <a href="index4.html"><button class="btn btn-default" >historial</button></a>
+    
+</div>
+   <script src="js/gato.js"></script>
+    
+</body>
+</html>
