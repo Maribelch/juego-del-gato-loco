@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     ;
 }
-.gati{
+.gati2{
     margin-left: 20%;
     margin-top: 20%;
     width: 50%;
@@ -22,7 +22,11 @@
     background-image:url(../img/fondo%202.jpg);
     border-radius: 25px;
 }
-/*--------------------index3----------------*/
+/*--------------------index2----------------*/
+.gati{
+    margin-left: 20%;
+    width: 50%;
+}
 .fondo_2{
     background-image: url(../img/fondo%203.jpg);
     background-repeat: no-repeat;
@@ -57,24 +61,89 @@
     background-color:#20B2AA;
     border-radius: 25px;
 }
-/*--------------------index4----------------*/
+/*--------------------index3----------------*/
 
 .fondo_3{
-    background-image: url(../img/luna.jpg);
+    background-image: url(../img/gatolo.jpg);
     background-repeat: no-repeat;
 
 }
 .titu3{
    font: bold 40px cursive;
-    color:#4682B4;
+    color:#fff;
 }
-/*--------------------index5----------------*/
+
+
+        .Cuadrado{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            font-weight: bold; 
+            font: bold 70px cursive; 
+            color:#fff;
+        }
+        table td
+        {
+            border:2px solid #fff;            
+        }
+           
+        .btn-default{ 
+            color: #fff;
+            background-color: transparent;
+            border-color:#fff;
+            margin-top: 2%;
+           font: bold 40px cursive;
+            width:50%;
+            height:45px;
+        
+}
+        .letra{
+            color: #fff; 
+            font-size:30pt;
+            padding-top:2%; 
+            font-family: "Indie Flower", Arial ;
+}
+        #message{
+            font-size: 20pt; font-family: "Indie Flower", Arial;
+            color:#fff;
+            padding-top:1%;
+}
+        .michito{
+            margin:5% 0% 5% 37%;}
+            @media(max-width: 700px){
+            .michito{
+                margin:5% 0% 5% 5%;
+                }
+            #message{
+                padding-top:0%;
+                 font: bold 20px cursive;}}
+
+/*--------------------index4----------------*/
 .fondo_4{
     background-color: #000;
 }
 .gato{
     width: 95%;
 }
+/*--------------------cancha----------------*/
+.fondo_cancha{
+    background-image: url(../img/negro.jpg);
+    background-repeat: no-repeat;
+}
+.titus{
+   font: bold 20px cursive;
+    color:#fff;
+    margin-left: 2%;
+}
+.negro{
+    width: 100%;
+    height:120px;
+    margin-top:15%;
+    border:4px solid #fff;
+}
+
+
+
 
 
 
